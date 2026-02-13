@@ -205,3 +205,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+
+#Ignora os usuários
+#Ignora tudo dentro de data/
+#Exceto o arquivo .gitkeep
+
+data/*
+!data/.gitkeep
